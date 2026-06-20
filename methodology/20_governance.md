@@ -39,6 +39,8 @@ Defines who holds which decision rights so this methodology can be handed to **a
 | 🟡 **Checkpoint (pause for human)** | Continue past a budget/turn/cost/time ceiling; proceed when the whole audit is mostly UNKNOWN; fall back from live-web to assumption mode; proceed when a fixed restriction kills *all* concepts; use any paid/metered API beyond its cap | Orchestrator halts and surfaces the decision; does not self-authorize |
 | 🔴 **Forbidden without explicit, separate approval** | Produce menus/branding/recipes/names/visual identity/financial models/marketing/hiring/build-out; create or edit repo files; scaffold/run code; install packages; contact third parties, send messages, post publicly, log into sites, or represent the user externally | Hard stop; no prompt can lift it |
 
+**Dimension-floor checkpoint behavior (M4):** When the audit evidence floor (≥1 PROBABLE+ per research dimension) is unmet for one or more dimensions, the Orchestrator logs the 🟡 checkpoint, applies unknown-penalties to all criteria backed by the unmet dimension, and **continues** the run. Exception: if no concept can receive a valid score on *any* criterion (e.g., all dimensions are UNKNOWN), the Orchestrator escalates to L0 instead of continuing.
+
 ---
 
 ## G2. Source Hierarchy

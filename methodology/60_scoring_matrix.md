@@ -35,6 +35,8 @@ For each criterion whose score rests **mainly on UNKNOWN or ASSUMPTION** finding
 
 This prevents a concept from "winning" on confident-but-unsupported scores: thin-evidence concepts are automatically deflated relative to evidenced ones.
 
+**Primary-backing rule (M1):** When multiple findings back one criterion, apply the penalty of the weakest-tier finding *only* if that finding is the **primary (load-bearing) evidence** for that criterion. A supplementary lower-tier finding that merely reinforces a PROBABLE+ primary does not itself trigger a penalty. If in doubt, ask: "Would the score collapse without this finding?" — if yes, it is primary.
+
 ## Anti-gaming rules
 
 - A criterion score **without** supporting Finding references is **nullified** by the Judge (not averaged in).

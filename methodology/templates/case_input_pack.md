@@ -6,6 +6,7 @@
 # CASE INPUT PACK — one location, neutral data only.
 case_id:                 # e.g. "case-001"
 language_for_report:     # e.g. "de" | "en" | "auto"
+evidence_mode:           # live-web | user-provided | synthetic | hybrid
 
 location:
   city:                  # value + tag

@@ -1,7 +1,9 @@
 # Universal Restaurant Market Research & Concept Discovery — Methodology Package
 
-**Version:** 1.4 (framework-neutral)
+**Version:** 1.5 (framework-neutral)
 **Status:** Methodology instruction package. Documentation-first. No code, no framework, no execution.
+
+**v1.5 changes (from synthetic dry-run synthetic_001):** 8 methodology fixes applied — M1 primary-backing rule for mixed-tier penalties (`60_scoring_matrix.md`); M2 tiebreaker for equal weighted_total (`70_debate_arbiter_protocol.md`); M3 quantified Phase-3 gate (`40_workflow_phases.md`); M4 dimension-floor checkpoint behavior (`20_governance.md`); M5 rebuttal evidence restriction (`70_debate_arbiter_protocol.md`); M6 hybrid-concept ban in Phase 3 (`40_workflow_phases.md`); M7 `evidence_mode` field in case input template; M8 no CONDITIONAL sub-tiers (`70_debate_arbiter_protocol.md`).
 
 ## Purpose
 
